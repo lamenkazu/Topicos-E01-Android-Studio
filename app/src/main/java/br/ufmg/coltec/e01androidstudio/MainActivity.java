@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.w("Entrou!", "Botão OPS clicado.");
             }
         });
-// TODO Acrescentar um log verbose, indicando que a Activity foi criada corretamente
+
+        Log.v("Sucesso!", "Activity criada corretamente");
     }
 }
