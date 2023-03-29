@@ -23,7 +23,6 @@
         android:text="Está tudo bem"
         android:id="@+id/btn_ok" />
 
-<!-- TODO Reposicionar o botão para ficar acima do btn_ok -->
     <Button
         android:layout_above="@id/btn_ok"
         android:layout_centerHorizontal="true"
