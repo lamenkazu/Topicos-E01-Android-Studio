@@ -3,12 +3,12 @@ package br.ufmg.coltec.e01androidstudio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-// TODO Reorganizar esse código
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast t = Toast.makeText(MainActivity.this, "Reprovado!", Toast.LENGTH_LONG);
                 t.setGravity(Gravity.TOP, 0, 0);
                 t.show();
-// TODO Acrescentar um log de warning, indicando que o usuário clicou neste botão
+
+                Log.w("Entrou!", "Botão OPS clicado.");
             }
         });
 // TODO Acrescentar um log verbose, indicando que a Activity foi criada corretamente
