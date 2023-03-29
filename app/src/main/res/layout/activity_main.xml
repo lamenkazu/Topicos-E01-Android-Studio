@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,6 +25,9 @@
 
 <!-- TODO Reposicionar o botão para ficar acima do btn_ok -->
     <Button
+        android:layout_above="@id/btn_ok"
+        android:layout_centerHorizontal="true"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#990000"
